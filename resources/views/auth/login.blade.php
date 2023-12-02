@@ -3,6 +3,14 @@
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
     <form method="POST" action="{{ route('login') }}">
+
+        <center>
+             <a href="/">
+                    <img src="https://www.retinasoft.com.bd/assets/img/its/logo/RS%20Logo%202021-01.png" style="max-height: 70px;">
+                </a><br>
+        </center>
+
+
         @csrf
 
         <!-- Email Address -->
