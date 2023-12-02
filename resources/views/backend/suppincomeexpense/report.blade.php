@@ -25,7 +25,7 @@
 							</thead>
 							<tbody>
 
-								@php $i =1; $totalincome = 0; $totalexpense = 0; @endphp
+								@php $i =1; $totalincome = 0; $totalexpense = 0; $totalprofit = 0; @endphp
 								@if(isset($data))
 								@foreach($data as $d)
 
